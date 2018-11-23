@@ -1,11 +1,16 @@
+$color: #646464;
+$color2: #f00;
+	
+
 #container{
 	width: 80%;
+	height: auto;
 	margin: 0 auto;
-	background: lightgray;
+	background: $color2;
 }
 
 .row-3 {
 	width: 30%;
-	background: red;
+	background: $color;
 	margin: 0 auto;
 }
