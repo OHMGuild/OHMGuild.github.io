@@ -1,11 +1,15 @@
+$color: #646464;
+$color2: #f00;
+
 #container{
 	width: 80%;
 	margin: 0 auto;
-	background: lightgray;
+	background: $color;
 }
 
 .row-3 {
+	display: inline-block;
 	width: 30%;
-	background: red;
+	background: $color2;
 	margin: 0 auto;
 }
